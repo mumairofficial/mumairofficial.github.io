@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/rl-preview/precache-manifest.8cac21d79e1234ed40f1b61d057fa87c.js"
+  "/rl-preview/precache-manifest.97ec322b398b17d839de14bbe5651974.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "rahimia-library"});

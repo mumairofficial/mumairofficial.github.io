@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="bg-grey-lighter text-white-lighter min-h-full">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App Umair good to see you again"/>
     <p>
@@ -15,7 +15,12 @@ import HelloWorld from '@/components/HelloWorld.vue';
 export default {
   name: 'home',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
+<style>
+.btn {
+  @apply
+}
+</style>
