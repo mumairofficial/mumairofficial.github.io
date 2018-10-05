@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App Umair good to see you again"/>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, fugiat? Consequatur nemo officiis magnam facere! Beatae suscipit cum nam molestias eos libero illum magnam deserunt nobis! Officia esse dolore qui?
+      Lorem ipsum dolor greate to know
     </p>
   </div>
 </template>
