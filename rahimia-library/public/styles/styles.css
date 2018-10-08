@@ -1,15 +1,3 @@
-/**
- * This injects Tailwind's base styles, which is a combination of
- * Normalize.css and some additional base styles.
- *
- * You can see the styles here:
- * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
- *
- * If using `postcss-import`, use this import instead:
- *
- * @import "tailwindcss/preflight";
- */
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -617,14 +605,6 @@ table {
   border-collapse: collapse;
 }
 
-/**
-  * This injects any component classes registered by plugins.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/components";
-  */
-
 .container {
   width: 100%;
 }
@@ -652,31 +632,6 @@ table {
     max-width: 1200px;
   }
 }
-
-/**
-  * Here you would add any of your custom component classes; stuff that you'd
-  * want loaded *before* the utilities so that the utilities could still
-  * override them.
-  *
-  * Example:
-  *
-  * .btn { ... }
-  * .form-input { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "components/buttons";
-  * @import "components/forms";
-  */
-
-/**
-  * This injects all of Tailwind's utility classes, generated based on your
-  * config file.
-  *
-  * If using `postcss-import`, use this import instead:
-  *
-  * @import "tailwindcss/utilities";
-  */
 
 .list-reset {
   list-style: none;
@@ -3223,6 +3178,10 @@ table {
 
 .h-32 {
   height: 8rem;
+}
+
+.h-42 {
+  height: 11rem;
 }
 
 .h-48 {
@@ -6265,21 +6224,6 @@ table {
   z-index: auto;
 }
 
-/**
-  * Here you would add any custom utilities you need that don't come out of the
-  * box with Tailwind.
-  *
-  * Example :
-  *
-  * .bg-pattern-graph-paper { ... }
-  * .skew-45 { ... }
-  *
-  * Or if using a preprocessor or `postcss-import`:
-  *
-  * @import "utilities/background-patterns";
-  * @import "utilities/skew-transforms";
-  */
-
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
@@ -8818,6 +8762,10 @@ table {
 
   .sm\:h-32 {
     height: 8rem;
+  }
+
+  .sm\:h-42 {
+    height: 11rem;
   }
 
   .sm\:h-48 {
@@ -14385,6 +14333,10 @@ table {
     height: 8rem;
   }
 
+  .md\:h-42 {
+    height: 11rem;
+  }
+
   .md\:h-48 {
     height: 12rem;
   }
@@ -19950,6 +19902,10 @@ table {
     height: 8rem;
   }
 
+  .lg\:h-42 {
+    height: 11rem;
+  }
+
   .lg\:h-48 {
     height: 12rem;
   }
@@ -25513,6 +25469,10 @@ table {
 
   .xl\:h-32 {
     height: 8rem;
+  }
+
+  .xl\:h-42 {
+    height: 11rem;
   }
 
   .xl\:h-48 {

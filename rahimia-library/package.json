@@ -7,7 +7,7 @@
     "build": "yarn tailwind:css && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "git:release": "rm -rf ../rl-preview && yarn build && cp -r dist ../rl-preview && git add --all && git commit -m \"release preview\" && git push && echo \"PREVIEW RELEASED\" ",
-    "tailwind:css": "./node_modules/.bin/tailwind build ./src/assets/css/main.css -c ./tailwind.js -o ./public/css/styles.css"
+    "tailwind:css": "./node_modules/.bin/tailwind build ./src/assets/styles/main.css -c ./tailwind.js -o ./public/styles/styles.css"
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
@@ -22,6 +22,8 @@
     "@vue/cli-service": "^3.0.4",
     "@vue/eslint-config-airbnb": "^3.0.4",
     "node-sass": "^4.9.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
     "sass-loader": "^7.0.1",
     "tailwindcss": "^0.6.6",
     "vue-template-compiler": "^2.5.17"
